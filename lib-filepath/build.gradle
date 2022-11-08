@@ -1,0 +1,20 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+}
+apply from: '../config.gradle'
+
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+}
+
+
+ext {
+    lib_group = 'com.chiclaim.android'
+    lib_artifact = 'path-from-uri'
+    lib_version = '1.0.0-SNAPSHOT'
+}
+
+// after ext
+//apply from: '../nexusmaven.gradle'

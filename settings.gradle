@@ -1,0 +1,4 @@
+rootProject.name = "PathFromUri"
+
+include ':app'
+include ':lib-filepath'
